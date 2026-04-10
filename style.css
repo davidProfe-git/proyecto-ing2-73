@@ -1,5 +1,10 @@
 h1
 {
     font-family: Arial, sans-serif;
-    color: blue;
+    color: rgba(79, 156, 16, 0.393);
+}
+
+body
+{
+    background-color: rgba(249, 199, 168, 0.87);
 }
