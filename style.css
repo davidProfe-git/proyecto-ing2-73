@@ -1,5 +1,74 @@
-h1{
-    font-family: Arial;
-    font-size: 80px;
-    color:rgb(82, 82, 146)
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --brand-color: rgb(82, 82, 146);
+    --card-color: #ffffff;
+    --text-color: #25253b;
+    --muted-color: #6e6e8d;
+    background-color: var(--brand-color);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.card {
+    background-color: var(--card-color);
+    border-radius: 20px;
+    padding: 36px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 20px 45px rgba(20, 20, 40, 0.24);
+    text-align: left;
+}
+
+.label {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--brand-color);
+    margin-bottom: 18px;
+}
+
+.card h1 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 8px;
+    line-height: 1.1;
+}
+
+.card .title {
+    font-size: 1rem;
+    color: var(--muted-color);
+    margin-bottom: 22px;
+}
+
+.divider {
+    width: 72px;
+    height: 4px;
+    background-color: var(--brand-color);
+    border-radius: 999px;
+    margin-bottom: 22px;
+}
+
+.card .info {
+    font-size: 0.98rem;
+    color: var(--text-color);
+    margin: 12px 0;
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 28px 24px;
+    }
+
+    .card h1 {
+        font-size: 1.7rem;
+    }
 }
