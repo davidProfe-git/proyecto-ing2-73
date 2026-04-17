@@ -5,7 +5,7 @@
 }
 
 body {
-    --brand-color: rgb(82, 82, 146);
+   background: linear-gradient(135deg, #4facfe, #00f2fe);
     --card-color: #ffffff;
     --text-color: #25253b;
     --muted-color: #6e6e8d;
