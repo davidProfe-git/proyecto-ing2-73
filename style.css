@@ -32,3 +32,10 @@ margin-top: 15px;
 font-size: 1.5em;
 color: #555;
 }
+
+.social a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #0077b5;
+    font-weight: bold;
+}
